@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Контакты - Котики</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/about">Обо мне</a>
+        <a href="/gallery">Галерея</a>
+        <a href="/contact">Контакты</a>
+        <a href="/breeds">Породы котиков</a>
+    </nav>
+    <h1>Контакты</h1>
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name"><br>
+        <label for="message">Сообщение:</label>
+        <textarea id="message" rows="4" cols="40"></textarea><br>
+        <input type="button" value="Отправить">
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector("input[type='button']").addEventListener("click", function() {
+                const name = document.getElementById("name").value;
+                alert("Привет, " + name + "!");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    padding: 20px;
+}
+
+nav {
+    background-color: #ffe4e1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #c71585;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px #aaa;
+}
